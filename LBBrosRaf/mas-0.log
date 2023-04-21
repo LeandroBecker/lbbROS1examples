@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-19T13:09:02.944254352Z</date>
+  <millis>1681909742944</millis>
+  <nanos>254352</nanos>
+  <sequence>0</sequence>
+  <logger>ariac_env.RosEnv</logger>
+  <level>INFO</level>
+  <class>RosEnv</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Environment started, connection with ROS established.</message>
+</record>
+</log>
