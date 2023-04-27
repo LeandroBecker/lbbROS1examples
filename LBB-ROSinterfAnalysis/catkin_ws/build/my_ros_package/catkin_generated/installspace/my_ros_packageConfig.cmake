@@ -67,14 +67,14 @@ set(my_ros_package_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_ros_package_SOURCE_PREFIX /home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/src/my_ros_package)
-  set(my_ros_package_DEVEL_PREFIX /home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/devel)
+  set(my_ros_package_SOURCE_PREFIX /home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/src/my_ros_package)
+  set(my_ros_package_DEVEL_PREFIX /home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel)
   set(my_ros_package_INSTALL_PREFIX "")
   set(my_ros_package_PREFIX ${my_ros_package_DEVEL_PREFIX})
 else()
   set(my_ros_package_SOURCE_PREFIX "")
   set(my_ros_package_DEVEL_PREFIX "")
-  set(my_ros_package_INSTALL_PREFIX /home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/install)
+  set(my_ros_package_INSTALL_PREFIX /home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/install)
   set(my_ros_package_PREFIX ${my_ros_package_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/install/lib;/home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

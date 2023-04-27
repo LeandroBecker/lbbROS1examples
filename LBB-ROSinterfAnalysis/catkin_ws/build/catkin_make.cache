@@ -1,2 +1,2 @@
 my_ros_package
--DCATKIN_DEVEL_PREFIX=/home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/leandro/jason/examples/LBB-ROSinterfAnalysis/catkin_ws/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/install -G Unix Makefiles

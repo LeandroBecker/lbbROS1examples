@@ -2,663 +2,111 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-04-19T14:06:57.282220802Z</date>
-  <millis>1681913217282</millis>
-  <nanos>220802</nanos>
-  <sequence>3531</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1643</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.287431382Z</date>
-  <millis>1681913217287</millis>
-  <nanos>431382</nanos>
-  <sequence>3532</sequence>
+  <date>2023-04-25T10:45:34.145316413Z</date>
+  <millis>1682419534145</millis>
+  <nanos>316413</nanos>
+  <sequence>16129</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1643</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.381928379Z</date>
-  <millis>1681913217381</millis>
-  <nanos>928379</nanos>
-  <sequence>3533</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>sense</method>
   <thread>49</thread>
-  <message>Val1: 1644</message>
+  <message>Start sense 2689</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:57.387038457Z</date>
-  <millis>1681913217387</millis>
-  <nanos>38457</nanos>
-  <sequence>3534</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.145571489Z</date>
+  <millis>1682419534145</millis>
+  <nanos>571489</nanos>
+  <sequence>16130</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1644</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.482324022Z</date>
-  <millis>1681913217482</millis>
-  <nanos>324022</nanos>
-  <sequence>3535</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1645</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.487401481Z</date>
-  <millis>1681913217487</millis>
-  <nanos>401481</nanos>
-  <sequence>3536</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1645</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.582419218Z</date>
-  <millis>1681913217582</millis>
-  <nanos>419218</nanos>
-  <sequence>3537</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1646</message>
+  <message>LBB LocalAgArch, criticalRC time (ns): 1817</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:57.587532116Z</date>
-  <millis>1681913217587</millis>
-  <nanos>532116</nanos>
-  <sequence>3538</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.145682676Z</date>
+  <millis>1682419534145</millis>
+  <nanos>682676</nanos>
+  <sequence>16131</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1646</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.682384126Z</date>
-  <millis>1681913217682</millis>
-  <nanos>384126</nanos>
-  <sequence>3539</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1647</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.687363078Z</date>
-  <millis>1681913217687</millis>
-  <nanos>363078</nanos>
-  <sequence>3540</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1647</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.782342611Z</date>
-  <millis>1681913217782</millis>
-  <nanos>342611</nanos>
-  <sequence>3541</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1648</message>
+  <message>LBB LocalAgArch, sense time (ns): 192599</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:57.787415057Z</date>
-  <millis>1681913217787</millis>
-  <nanos>415057</nanos>
-  <sequence>3542</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.145762494Z</date>
+  <millis>1682419534145</millis>
+  <nanos>762494</nanos>
+  <sequence>16132</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1648</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.881949628Z</date>
-  <millis>1681913217881</millis>
-  <nanos>949628</nanos>
-  <sequence>3543</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1649</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.887041913Z</date>
-  <millis>1681913217887</millis>
-  <nanos>41913</nanos>
-  <sequence>3544</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1649</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:57.982402874Z</date>
-  <millis>1681913217982</millis>
-  <nanos>402874</nanos>
-  <sequence>3545</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1650</message>
+  <message>LBB LocalAgArch, delib time (ns): 48313</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:57.987516588Z</date>
-  <millis>1681913217987</millis>
-  <nanos>516588</nanos>
-  <sequence>3546</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.145871210Z</date>
+  <millis>1682419534145</millis>
+  <nanos>871210</nanos>
+  <sequence>16133</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1650</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.082357621Z</date>
-  <millis>1681913218082</millis>
-  <nanos>357621</nanos>
-  <sequence>3547</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1651</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.087394616Z</date>
-  <millis>1681913218087</millis>
-  <nanos>394616</nanos>
-  <sequence>3548</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1651</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.182280197Z</date>
-  <millis>1681913218182</millis>
-  <nanos>280197</nanos>
-  <sequence>3549</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1652</message>
+  <message>LBB LocalAgArch, act time (ns): 15612</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:58.187295069Z</date>
-  <millis>1681913218187</millis>
-  <nanos>295069</nanos>
-  <sequence>3550</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.145948479Z</date>
+  <millis>1682419534145</millis>
+  <nanos>948479</nanos>
+  <sequence>16134</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1652</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.282360683Z</date>
-  <millis>1681913218282</millis>
-  <nanos>360683</nanos>
-  <sequence>3551</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1653</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.287299873Z</date>
-  <millis>1681913218287</millis>
-  <nanos>299873</nanos>
-  <sequence>3552</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1653</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.382423514Z</date>
-  <millis>1681913218382</millis>
-  <nanos>423514</nanos>
-  <sequence>3553</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1654</message>
+  <message>LBB LocalAgArch, resCycle time (ns): 256524</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:58.387478262Z</date>
-  <millis>1681913218387</millis>
-  <nanos>478262</nanos>
-  <sequence>3554</sequence>
+  <date>2023-04-25T10:45:34.146029302Z</date>
+  <millis>1682419534146</millis>
+  <nanos>29302</nanos>
+  <sequence>16135</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1654</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.482400352Z</date>
-  <millis>1681913218482</millis>
-  <nanos>400352</nanos>
-  <sequence>3555</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1655</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.490526467Z</date>
-  <millis>1681913218490</millis>
-  <nanos>526467</nanos>
-  <sequence>3556</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1655</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.582180138Z</date>
-  <millis>1681913218582</millis>
-  <nanos>180138</nanos>
-  <sequence>3557</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>sense</method>
   <thread>49</thread>
-  <message>Val1: 1656</message>
+  <message>Start sense 2690</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:58.588209202Z</date>
-  <millis>1681913218588</millis>
-  <nanos>209202</nanos>
-  <sequence>3558</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.146195302Z</date>
+  <millis>1682419534146</millis>
+  <nanos>195302</nanos>
+  <sequence>16136</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1656</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.682334638Z</date>
-  <millis>1681913218682</millis>
-  <nanos>334638</nanos>
-  <sequence>3559</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1657</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.688261521Z</date>
-  <millis>1681913218688</millis>
-  <nanos>261521</nanos>
-  <sequence>3560</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1657</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.782438760Z</date>
-  <millis>1681913218782</millis>
-  <nanos>438760</nanos>
-  <sequence>3561</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val1: 1658</message>
+  <message>LBB LocalAgArch, criticalRC time (ns): 1105</message>
 </record>
 <record>
-  <date>2023-04-19T14:06:58.788380700Z</date>
-  <millis>1681913218788</millis>
-  <nanos>380700</nanos>
-  <sequence>3562</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
+  <date>2023-04-25T10:45:34.146304833Z</date>
+  <millis>1682419534146</millis>
+  <nanos>304833</nanos>
+  <sequence>16137</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_R</logger>
   <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1658</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.882364911Z</date>
-  <millis>1681913218882</millis>
-  <nanos>364911</nanos>
-  <sequence>3563</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1659</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.888256355Z</date>
-  <millis>1681913218888</millis>
-  <nanos>256355</nanos>
-  <sequence>3564</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1659</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.981948950Z</date>
-  <millis>1681913218981</millis>
-  <nanos>948950</nanos>
-  <sequence>3565</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$2</class>
-  <method>receive</method>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
   <thread>49</thread>
-  <message>Val2: 83</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.982562Z</date>
-  <millis>1681913218982</millis>
-  <nanos>562000</nanos>
-  <sequence>3566</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>49</thread>
-  <message>Val1: 1660</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.988409818Z</date>
-  <millis>1681913218988</millis>
-  <nanos>409818</nanos>
-  <sequence>3567</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 2: 83</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:58.988502751Z</date>
-  <millis>1681913218988</millis>
-  <nanos>502751</nanos>
-  <sequence>3568</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1660</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.081914293Z</date>
-  <millis>1681913219081</millis>
-  <nanos>914293</nanos>
-  <sequence>3569</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1661</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.089968491Z</date>
-  <millis>1681913219089</millis>
-  <nanos>968491</nanos>
-  <sequence>3570</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1661</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.101283803Z</date>
-  <millis>1681913219101</millis>
-  <nanos>283803</nanos>
-  <sequence>3571</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv</class>
-  <method>updateTime</method>
-  <thread>47</thread>
-  <message>updateTime requesed</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.182110286Z</date>
-  <millis>1681913219182</millis>
-  <nanos>110286</nanos>
-  <sequence>3572</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>49</thread>
-  <message>Val1: 1662</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.188016318Z</date>
-  <millis>1681913219188</millis>
-  <nanos>16318</nanos>
-  <sequence>3573</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1662</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.282345552Z</date>
-  <millis>1681913219282</millis>
-  <nanos>345552</nanos>
-  <sequence>3574</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1663</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.288263609Z</date>
-  <millis>1681913219288</millis>
-  <nanos>263609</nanos>
-  <sequence>3575</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1663</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.381793927Z</date>
-  <millis>1681913219381</millis>
-  <nanos>793927</nanos>
-  <sequence>3576</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>49</thread>
-  <message>Val1: 1664</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.387681327Z</date>
-  <millis>1681913219387</millis>
-  <nanos>681327</nanos>
-  <sequence>3577</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1664</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.481976615Z</date>
-  <millis>1681913219481</millis>
-  <nanos>976615</nanos>
-  <sequence>3578</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1665</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.492535333Z</date>
-  <millis>1681913219492</millis>
-  <nanos>535333</nanos>
-  <sequence>3579</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1665</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.581819317Z</date>
-  <millis>1681913219581</millis>
-  <nanos>819317</nanos>
-  <sequence>3580</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>49</thread>
-  <message>Val1: 1666</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.587534599Z</date>
-  <millis>1681913219587</millis>
-  <nanos>534599</nanos>
-  <sequence>3581</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1666</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.681967339Z</date>
-  <millis>1681913219681</millis>
-  <nanos>967339</nanos>
-  <sequence>3582</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>50</thread>
-  <message>Val1: 1667</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.688365486Z</date>
-  <millis>1681913219688</millis>
-  <nanos>365486</nanos>
-  <sequence>3583</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1667</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.782251095Z</date>
-  <millis>1681913219782</millis>
-  <nanos>251095</nanos>
-  <sequence>3584</sequence>
-  <logger>rafael_env.RosEnv</logger>
-  <level>INFO</level>
-  <class>RosEnv$1</class>
-  <method>receive</method>
-  <thread>49</thread>
-  <message>Val1: 1668</message>
-</record>
-<record>
-  <date>2023-04-19T14:06:59.788112884Z</date>
-  <millis>1681913219788</millis>
-  <nanos>112884</nanos>
-  <sequence>3585</sequence>
-  <logger>jason.asSemantics.TransitionSystem.sample_agent_R</logger>
-  <level>INFO</level>
-  <class>jason.stdlib.println</class>
-  <method>execute</method>
-  <thread>42</thread>
-  <message>Read value 1: 1668</message>
+  <message>LBB LocalAgArch, sense time (ns): 80458</message>
 </record>
 </log>

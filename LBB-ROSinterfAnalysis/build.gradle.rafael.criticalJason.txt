@@ -19,15 +19,19 @@ repositories {
     //maven { url "https://jade.tilab.com/maven/" }
 
     flatDir { dirs 'lib' }
+    //flatDir { dirs 'lib', '/home/leandro/jason/build/libs' }    
     //implementation files('libs/a.jar', 'libs/b.jar')
 }
 
 dependencies {
     //implementation('org.jason:jason:3.1')
+    implementation files('lib/java_rosbridge_all.jar', '/home/leandro/jason/build/libs/jason-3.1.jar')
     //implementation files('lib/java_rosbridge_all.jar')
     implementation group: 'org.glassfish', name: 'javax.json', version: '1.1.4'
 
-    implementation fileTree(dir: 'lib', include: '*.jar')
+    //implementation fileTree(dir: 'lib', include: '*.jar')
+    //compile(name: 'java_rosbridge_all', ext: 'jar')
+    //compile(name: 'jason-3.1', ext: 'jar')
 }
 
 sourceSets {
@@ -41,7 +45,7 @@ sourceSets {
 task run (type: JavaExec, dependsOn: 'classes') {
     description 'runs the application'
     main = 'jason.infra.local.RunLocalMAS'
-    args 'masRafael.mas2j'
+    args 'masRafael_C.mas2j'
     classpath sourceSets.main.runtimeClasspath
 }
 

@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-04-19T13:09:02.944254352Z</date>
-  <millis>1681909742944</millis>
-  <nanos>254352</nanos>
+  <date>2023-04-25T09:09:47.069546545Z</date>
+  <millis>1682413787069</millis>
+  <nanos>546545</nanos>
   <sequence>0</sequence>
   <logger>ariac_env.RosEnv</logger>
   <level>INFO</level>
