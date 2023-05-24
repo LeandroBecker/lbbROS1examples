@@ -24,25 +24,59 @@ repositories {
 
     //maven { url "https://raw.githubusercontent.com/jacamo-lang/mvn-repo/master" }
     //maven { url "https://jade.tilab.com/maven/" }
-    maven { url "https://raw.github.com/embedded-mas/embedded-mas-mvn-repo/master" }
+    //maven { url "https://raw.github.com/embedded-mas/embedded-mas-mvn-repo/master" }
 
-    flatDir { dirs '/home/leandro/jason/build/libs'}  //add  ~/bin to path    
+    flatDir { dirs '/home/leandro/jason/build/libs'}
+//    flatDir { dirs '/home/leandro/jason/build/libs',
+//                   '/home/leandro/embedded-mas/src/main/java/embedded/mas/bridges/jacamo'
+//            }      
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/com.fazecast/jSerialComm
+    implementation group: 'com.fazecast', name: 'jSerialComm', version: '1.3.10'
+//    implementation "javard:javard:0.035-SNAPSHOT"
+    //implementation group: 'org.jason' , name: 'jason'   , version: '2.6-SNAPSHOT'
+    implementation group: 'javax.json', name: 'javax.json-api', version: '1.1.4'
+    implementation group: 'org.glassfish', name: 'javax.json', version: '1.1.4'
+    
+
+		
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.2'  
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.13.2' 
+    implementation group: 'org.eclipse.jetty.websocket', name: 'websocket-server', version: '9.4.46.v20220331' 
+    
+	// https://mvnrepository.com/artifact/org.rxtx/rxtx
+//	implementation group: 'org.rxtx', name: 'rxtx', version: '2.1.7'
+	
+//	implementation group: 'edu.wpi.rail', name: 'jrosbridge', version: '0.2.0'
+	
+	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.13.3'
+	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.13.3'
+	
+	implementation group: 'org.yaml', name: 'snakeyaml', version: '1.30'
+
+
+    // This dependency is exported to consumers, that is to say found on their compile classpath.
+//    api 'org.apache.commons:commons-math3:3.6.1'
+
+    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
+//    implementation 'com.google.guava:guava:28.2-jre'
+
     implementation('org.jason:jason:3.1')
-    implementation('embedded-mas:embedded-mas:0.055-SNAPSHOT')
+//    implementation('embedded-mas:embedded-mas:0.055-SNAPSHOT')
 }
 
-//LB: whatever is bellow does not make any difference in the current project
+//LB: trying to add the source files from embedded-mas
 sourceSets {
     main {
         java {
-            srcDir '.' //'src/java'
+            srcDir '/home/leandro/embedded-mas/src/main/java/embedded/mas/'
         }
-        //resources {
-        //    srcDir 'src/resources'
-        //}
+        // srcDirs 'src/main/java', 'external-project'
+        resources {
+            srcDir 'src/resources'
+        }
     }
 }
 

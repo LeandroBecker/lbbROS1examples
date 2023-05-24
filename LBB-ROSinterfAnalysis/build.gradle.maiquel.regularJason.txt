@@ -8,7 +8,7 @@
 defaultTasks 'run'
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
+//apply plugin: 'eclipse'
 
 version '1.0'
 group   'org.jason'
