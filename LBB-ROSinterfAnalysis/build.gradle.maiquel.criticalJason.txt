@@ -71,7 +71,7 @@ dependencies {
 sourceSets {
     main {
         java {
-            srcDir '/home/leandro/embedded-mas/src/main/java/embedded/mas/'
+            srcDir '/home/leandro/critical-embedded-mas/src/main/java/embedded/mas/'
         }
         // srcDirs 'src/main/java', 'external-project'
         resources {

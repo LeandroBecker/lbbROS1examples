@@ -2,27 +2,711 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-05-24T09:15:40.188741943Z</date>
-  <millis>1684919740188</millis>
-  <nanos>741943</nanos>
-  <sequence>11080</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <date>2023-05-24T09:59:57.643727253Z</date>
+  <millis>1684922397643</millis>
+  <nanos>727253</nanos>
+  <sequence>6426</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
   <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 10219</message>
+  <message>Start sense 1072</message>
 </record>
 <record>
-  <date>2023-05-24T09:15:40.188946042Z</date>
-  <millis>1684919740188</millis>
-  <nanos>946042</nanos>
-  <sequence>11081</sequence>
+  <date>2023-05-24T09:59:57.643950747Z</date>
+  <millis>1684922397643</millis>
+  <nanos>950747</nanos>
+  <sequence>6427</sequence>
   <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
   <level>INFO</level>
   <class>jason.infra.local.LocalAgArch</class>
   <method>reasoningCycle</method>
   <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 44313</message>
+  <message>LBB LocalAgArch, criticalRC time (ns): 155162</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.644292638Z</date>
+  <millis>1684922397644</millis>
+  <nanos>292638</nanos>
+  <sequence>6428</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 3295</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.644705747Z</date>
+  <millis>1684922397644</millis>
+  <nanos>705747</nanos>
+  <sequence>6429</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 42222</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.645132737Z</date>
+  <millis>1684922397645</millis>
+  <nanos>132737</nanos>
+  <sequence>6430</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 12887</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.645561100Z</date>
+  <millis>1684922397645</millis>
+  <nanos>561100</nanos>
+  <sequence>6431</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 58404</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.645976518Z</date>
+  <millis>1684922397645</millis>
+  <nanos>976518</nanos>
+  <sequence>6432</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1073</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.646471669Z</date>
+  <millis>1684922397646</millis>
+  <nanos>471669</nanos>
+  <sequence>6433</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 434705</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.646841368Z</date>
+  <millis>1684922397646</millis>
+  <nanos>841368</nanos>
+  <sequence>6434</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2640</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.647294521Z</date>
+  <millis>1684922397647</millis>
+  <nanos>294521</nanos>
+  <sequence>6435</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 39367</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.647704199Z</date>
+  <millis>1684922397647</millis>
+  <nanos>704199</nanos>
+  <sequence>6436</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 12363</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.648156638Z</date>
+  <millis>1684922397648</millis>
+  <nanos>156638</nanos>
+  <sequence>6437</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 54370</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.648564293Z</date>
+  <millis>1684922397648</millis>
+  <nanos>564293</nanos>
+  <sequence>6438</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1074</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.648777085Z</date>
+  <millis>1684922397648</millis>
+  <nanos>777085</nanos>
+  <sequence>6439</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 159452</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.649195333Z</date>
+  <millis>1684922397649</millis>
+  <nanos>195333</nanos>
+  <sequence>6440</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2878</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.649611865Z</date>
+  <millis>1684922397649</millis>
+  <nanos>611865</nanos>
+  <sequence>6441</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 39331</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.650039995Z</date>
+  <millis>1684922397650</millis>
+  <nanos>39995</nanos>
+  <sequence>6442</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 12328</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.650457296Z</date>
+  <millis>1684922397650</millis>
+  <nanos>457296</nanos>
+  <sequence>6443</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 54537</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.650889872Z</date>
+  <millis>1684922397650</millis>
+  <nanos>889872</nanos>
+  <sequence>6444</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1075</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.651361531Z</date>
+  <millis>1684922397651</millis>
+  <nanos>361531</nanos>
+  <sequence>6445</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 425434</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.651753016Z</date>
+  <millis>1684922397651</millis>
+  <nanos>753016</nanos>
+  <sequence>6446</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2676</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.651910096Z</date>
+  <millis>1684922397651</millis>
+  <nanos>910096</nanos>
+  <sequence>6447</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 33577</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.652386261Z</date>
+  <millis>1684922397652</millis>
+  <nanos>386261</nanos>
+  <sequence>6448</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 10777</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.652819427Z</date>
+  <millis>1684922397652</millis>
+  <nanos>819427</nanos>
+  <sequence>6449</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 47030</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.653289870Z</date>
+  <millis>1684922397653</millis>
+  <nanos>289870</nanos>
+  <sequence>6450</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1076</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.653503909Z</date>
+  <millis>1684922397653</millis>
+  <nanos>503909</nanos>
+  <sequence>6451</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 166118</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.653939402Z</date>
+  <millis>1684922397653</millis>
+  <nanos>939402</nanos>
+  <sequence>6452</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2450</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.654356225Z</date>
+  <millis>1684922397654</millis>
+  <nanos>356225</nanos>
+  <sequence>6453</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 34906</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.654775902Z</date>
+  <millis>1684922397654</millis>
+  <nanos>775902</nanos>
+  <sequence>6454</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 11641</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.655204835Z</date>
+  <millis>1684922397655</millis>
+  <nanos>204835</nanos>
+  <sequence>6455</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 48997</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.655624320Z</date>
+  <millis>1684922397655</millis>
+  <nanos>624320</nanos>
+  <sequence>6456</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1077</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.656107899Z</date>
+  <millis>1684922397656</millis>
+  <nanos>107899</nanos>
+  <sequence>6457</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 425445</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.656214883Z</date>
+  <millis>1684922397656</millis>
+  <nanos>214883</nanos>
+  <sequence>6458</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2424</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.656674829Z</date>
+  <millis>1684922397656</millis>
+  <nanos>674829</nanos>
+  <sequence>6459</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 33072</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.657079299Z</date>
+  <millis>1684922397657</millis>
+  <nanos>79299</nanos>
+  <sequence>6460</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 23382</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.657509383Z</date>
+  <millis>1684922397657</millis>
+  <nanos>509383</nanos>
+  <sequence>6461</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 58878</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.657953682Z</date>
+  <millis>1684922397657</millis>
+  <nanos>953682</nanos>
+  <sequence>6462</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1078</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.658455838Z</date>
+  <millis>1684922397658</millis>
+  <nanos>455838</nanos>
+  <sequence>6463</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 447898</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.658819729Z</date>
+  <millis>1684922397658</millis>
+  <nanos>819729</nanos>
+  <sequence>6464</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2704</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.659236525Z</date>
+  <millis>1684922397659</millis>
+  <nanos>236525</nanos>
+  <sequence>6465</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 40680</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.659659657Z</date>
+  <millis>1684922397659</millis>
+  <nanos>659657</nanos>
+  <sequence>6466</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 12029</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.660157140Z</date>
+  <millis>1684922397660</millis>
+  <nanos>157140</nanos>
+  <sequence>6467</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 55413</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.660604099Z</date>
+  <millis>1684922397660</millis>
+  <nanos>604099</nanos>
+  <sequence>6468</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1079</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.660746544Z</date>
+  <millis>1684922397660</millis>
+  <nanos>746544</nanos>
+  <sequence>6469</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 83664</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.660861444Z</date>
+  <millis>1684922397660</millis>
+  <nanos>861444</nanos>
+  <sequence>6470</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2917</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.660958375Z</date>
+  <millis>1684922397660</millis>
+  <nanos>958375</nanos>
+  <sequence>6471</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 44995</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661040917Z</date>
+  <millis>1684922397661</millis>
+  <nanos>40917</nanos>
+  <sequence>6472</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 12358</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661116974Z</date>
+  <millis>1684922397661</millis>
+  <nanos>116974</nanos>
+  <sequence>6473</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 60270</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661199137Z</date>
+  <millis>1684922397661</millis>
+  <nanos>199137</nanos>
+  <sequence>6474</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1080</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661328742Z</date>
+  <millis>1684922397661</millis>
+  <nanos>328742</nanos>
+  <sequence>6475</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 80779</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661417483Z</date>
+  <millis>1684922397661</millis>
+  <nanos>417483</nanos>
+  <sequence>6476</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2325</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661507077Z</date>
+  <millis>1684922397661</millis>
+  <nanos>507077</nanos>
+  <sequence>6477</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 36993</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661612608Z</date>
+  <millis>1684922397661</millis>
+  <nanos>612608</nanos>
+  <sequence>6478</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 10551</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661696787Z</date>
+  <millis>1684922397661</millis>
+  <nanos>696787</nanos>
+  <sequence>6479</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, resCycle time (ns): 49869</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661775076Z</date>
+  <millis>1684922397661</millis>
+  <nanos>775076</nanos>
+  <sequence>6480</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>criticalRCv3</method>
+  <thread>33</thread>
+  <message>Start sense 1081</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661904270Z</date>
+  <millis>1684922397661</millis>
+  <nanos>904270</nanos>
+  <sequence>6481</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, criticalRC time (ns): 78540</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.661993921Z</date>
+  <millis>1684922397661</millis>
+  <nanos>993921</nanos>
+  <sequence>6482</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, sense time (ns): 2397</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.662071119Z</date>
+  <millis>1684922397662</millis>
+  <nanos>71119</nanos>
+  <sequence>6483</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, delib time (ns): 39125</message>
+</record>
+<record>
+  <date>2023-05-24T09:59:57.662185611Z</date>
+  <millis>1684922397662</millis>
+  <nanos>185611</nanos>
+  <sequence>6484</sequence>
+  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.infra.local.LocalAgArch</class>
+  <method>reasoningCycle</method>
+  <thread>33</thread>
+  <message>LBB LocalAgArch, act time (ns): 10064</message>
 </record>
 </log>
