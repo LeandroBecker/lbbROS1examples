@@ -1,4 +1,4 @@
-prefix=/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/install
+prefix=/home/leandro/critical-embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/install
 
 Name: my_ros_package
 Description: Description of my_ros_package

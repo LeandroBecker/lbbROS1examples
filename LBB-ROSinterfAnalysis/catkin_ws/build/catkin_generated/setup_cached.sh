@@ -7,7 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export PWD='/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/build'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/src:$ROS_PACKAGE_PATH"
+export LD_LIBRARY_PATH='/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel/lib:/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/home/leandro/embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/leandro/critical-embedded-mas/examples/lbbROS1examples/LBB-ROSinterfAnalysis/catkin_ws/build'

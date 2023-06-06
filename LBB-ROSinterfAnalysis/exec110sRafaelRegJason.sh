@@ -1,9 +1,10 @@
 #!/bin/bash
 echo "Starting experiments script"
 cp build.gradle.rafael.regularJason.txt build.gradle
+cp src/java/RosEnv.jaBAA src/java/RosEnv.java
 #pwd 
 #cp ../ariac_human/human_control.py .
-SECONDS_TO_RUN=170  # Number of seconds to run
+SECONDS_TO_RUN=30  # Number of seconds to run
 
 END_TIME=$((SECONDS_TO_RUN + $(date +%s)))
 
@@ -22,4 +23,5 @@ do
 	rostopic pub finish std_msgs/Bool '{data: true}' --once 
 	touch .stop___MAS
 done
+rm src/java/RosEnv.java 
 echo "Finishing experiments script"

@@ -64,6 +64,7 @@ public class RosEnv extends Environment {
                     Literal val = new LiteralImpl("value2"); 
                     val.addTerm(new NumberTermImpl(msg.data)); 
                     addPercept("sample_agent_R",val); 
+                    informAgsEnvironmentChanged();
                 }
             }			
 	    ); //end Val2

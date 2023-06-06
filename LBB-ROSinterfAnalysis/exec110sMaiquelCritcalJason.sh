@@ -3,7 +3,7 @@ echo "Starting experiments script"
 cp build.gradle.maiquel.criticalJason.txt build.gradle
 #pwd 
 #cp ../ariac_human/human_control.py .
-SECONDS_TO_RUN=170  # Number of seconds to run
+SECONDS_TO_RUN=30  # Number of seconds to run
 
 END_TIME=$((SECONDS_TO_RUN + $(date +%s)))
 

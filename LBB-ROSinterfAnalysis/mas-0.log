@@ -2,711 +2,1187 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2023-05-24T09:59:57.643727253Z</date>
-  <millis>1684922397643</millis>
-  <nanos>727253</nanos>
-  <sequence>6426</sequence>
+  <date>2023-06-06T12:56:23.429581977Z</date>
+  <millis>1686056183429</millis>
+  <nanos>581977</nanos>
+  <sequence>0</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1072</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Agent started</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.643950747Z</date>
-  <millis>1684922397643</millis>
-  <nanos>950747</nanos>
-  <sequence>6427</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 155162</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.644292638Z</date>
-  <millis>1684922397644</millis>
-  <nanos>292638</nanos>
-  <sequence>6428</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 3295</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.644705747Z</date>
-  <millis>1684922397644</millis>
-  <nanos>705747</nanos>
-  <sequence>6429</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 42222</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.645132737Z</date>
-  <millis>1684922397645</millis>
-  <nanos>132737</nanos>
-  <sequence>6430</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 12887</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.645561100Z</date>
-  <millis>1684922397645</millis>
-  <nanos>561100</nanos>
-  <sequence>6431</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 58404</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.645976518Z</date>
-  <millis>1684922397645</millis>
-  <nanos>976518</nanos>
-  <sequence>6432</sequence>
+  <date>2023-06-06T12:56:33.858771704Z</date>
+  <millis>1686056193858</millis>
+  <nanos>771704</nanos>
+  <sequence>1</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1073</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 2</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.646471669Z</date>
-  <millis>1684922397646</millis>
-  <nanos>471669</nanos>
-  <sequence>6433</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 434705</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.646841368Z</date>
-  <millis>1684922397646</millis>
-  <nanos>841368</nanos>
-  <sequence>6434</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2640</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.647294521Z</date>
-  <millis>1684922397647</millis>
-  <nanos>294521</nanos>
-  <sequence>6435</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 39367</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.647704199Z</date>
-  <millis>1684922397647</millis>
-  <nanos>704199</nanos>
-  <sequence>6436</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 12363</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.648156638Z</date>
-  <millis>1684922397648</millis>
-  <nanos>156638</nanos>
-  <sequence>6437</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 54370</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.648564293Z</date>
-  <millis>1684922397648</millis>
-  <nanos>564293</nanos>
-  <sequence>6438</sequence>
+  <date>2023-06-06T12:56:33.969600542Z</date>
+  <millis>1686056193969</millis>
+  <nanos>600542</nanos>
+  <sequence>2</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1074</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 3</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.648777085Z</date>
-  <millis>1684922397648</millis>
-  <nanos>777085</nanos>
-  <sequence>6439</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 159452</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.649195333Z</date>
-  <millis>1684922397649</millis>
-  <nanos>195333</nanos>
-  <sequence>6440</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2878</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.649611865Z</date>
-  <millis>1684922397649</millis>
-  <nanos>611865</nanos>
-  <sequence>6441</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 39331</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.650039995Z</date>
-  <millis>1684922397650</millis>
-  <nanos>39995</nanos>
-  <sequence>6442</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 12328</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.650457296Z</date>
-  <millis>1684922397650</millis>
-  <nanos>457296</nanos>
-  <sequence>6443</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 54537</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.650889872Z</date>
-  <millis>1684922397650</millis>
-  <nanos>889872</nanos>
-  <sequence>6444</sequence>
+  <date>2023-06-06T12:56:34.073520558Z</date>
+  <millis>1686056194073</millis>
+  <nanos>520558</nanos>
+  <sequence>3</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1075</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 4</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.651361531Z</date>
-  <millis>1684922397651</millis>
-  <nanos>361531</nanos>
-  <sequence>6445</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 425434</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.651753016Z</date>
-  <millis>1684922397651</millis>
-  <nanos>753016</nanos>
-  <sequence>6446</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2676</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.651910096Z</date>
-  <millis>1684922397651</millis>
-  <nanos>910096</nanos>
-  <sequence>6447</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 33577</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.652386261Z</date>
-  <millis>1684922397652</millis>
-  <nanos>386261</nanos>
-  <sequence>6448</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 10777</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.652819427Z</date>
-  <millis>1684922397652</millis>
-  <nanos>819427</nanos>
-  <sequence>6449</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 47030</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.653289870Z</date>
-  <millis>1684922397653</millis>
-  <nanos>289870</nanos>
-  <sequence>6450</sequence>
+  <date>2023-06-06T12:56:34.177068577Z</date>
+  <millis>1686056194177</millis>
+  <nanos>68577</nanos>
+  <sequence>4</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1076</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 5</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.653503909Z</date>
-  <millis>1684922397653</millis>
-  <nanos>503909</nanos>
-  <sequence>6451</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 166118</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.653939402Z</date>
-  <millis>1684922397653</millis>
-  <nanos>939402</nanos>
-  <sequence>6452</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2450</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.654356225Z</date>
-  <millis>1684922397654</millis>
-  <nanos>356225</nanos>
-  <sequence>6453</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 34906</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.654775902Z</date>
-  <millis>1684922397654</millis>
-  <nanos>775902</nanos>
-  <sequence>6454</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 11641</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.655204835Z</date>
-  <millis>1684922397655</millis>
-  <nanos>204835</nanos>
-  <sequence>6455</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 48997</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.655624320Z</date>
-  <millis>1684922397655</millis>
-  <nanos>624320</nanos>
-  <sequence>6456</sequence>
+  <date>2023-06-06T12:56:34.280741573Z</date>
+  <millis>1686056194280</millis>
+  <nanos>741573</nanos>
+  <sequence>5</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1077</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 6</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.656107899Z</date>
-  <millis>1684922397656</millis>
-  <nanos>107899</nanos>
-  <sequence>6457</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 425445</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.656214883Z</date>
-  <millis>1684922397656</millis>
-  <nanos>214883</nanos>
-  <sequence>6458</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2424</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.656674829Z</date>
-  <millis>1684922397656</millis>
-  <nanos>674829</nanos>
-  <sequence>6459</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 33072</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.657079299Z</date>
-  <millis>1684922397657</millis>
-  <nanos>79299</nanos>
-  <sequence>6460</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 23382</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.657509383Z</date>
-  <millis>1684922397657</millis>
-  <nanos>509383</nanos>
-  <sequence>6461</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 58878</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.657953682Z</date>
-  <millis>1684922397657</millis>
-  <nanos>953682</nanos>
-  <sequence>6462</sequence>
+  <date>2023-06-06T12:56:34.384416866Z</date>
+  <millis>1686056194384</millis>
+  <nanos>416866</nanos>
+  <sequence>6</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1078</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 7</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.658455838Z</date>
-  <millis>1684922397658</millis>
-  <nanos>455838</nanos>
-  <sequence>6463</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 447898</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.658819729Z</date>
-  <millis>1684922397658</millis>
-  <nanos>819729</nanos>
-  <sequence>6464</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2704</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.659236525Z</date>
-  <millis>1684922397659</millis>
-  <nanos>236525</nanos>
-  <sequence>6465</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 40680</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.659659657Z</date>
-  <millis>1684922397659</millis>
-  <nanos>659657</nanos>
-  <sequence>6466</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 12029</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.660157140Z</date>
-  <millis>1684922397660</millis>
-  <nanos>157140</nanos>
-  <sequence>6467</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 55413</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.660604099Z</date>
-  <millis>1684922397660</millis>
-  <nanos>604099</nanos>
-  <sequence>6468</sequence>
+  <date>2023-06-06T12:56:34.488242383Z</date>
+  <millis>1686056194488</millis>
+  <nanos>242383</nanos>
+  <sequence>7</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1079</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 8</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.660746544Z</date>
-  <millis>1684922397660</millis>
-  <nanos>746544</nanos>
-  <sequence>6469</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 83664</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.660861444Z</date>
-  <millis>1684922397660</millis>
-  <nanos>861444</nanos>
-  <sequence>6470</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2917</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.660958375Z</date>
-  <millis>1684922397660</millis>
-  <nanos>958375</nanos>
-  <sequence>6471</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 44995</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661040917Z</date>
-  <millis>1684922397661</millis>
-  <nanos>40917</nanos>
-  <sequence>6472</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 12358</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661116974Z</date>
-  <millis>1684922397661</millis>
-  <nanos>116974</nanos>
-  <sequence>6473</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 60270</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661199137Z</date>
-  <millis>1684922397661</millis>
-  <nanos>199137</nanos>
-  <sequence>6474</sequence>
+  <date>2023-06-06T12:56:34.592047303Z</date>
+  <millis>1686056194592</millis>
+  <nanos>47303</nanos>
+  <sequence>8</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1080</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 9</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.661328742Z</date>
-  <millis>1684922397661</millis>
-  <nanos>328742</nanos>
-  <sequence>6475</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 80779</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661417483Z</date>
-  <millis>1684922397661</millis>
-  <nanos>417483</nanos>
-  <sequence>6476</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2325</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661507077Z</date>
-  <millis>1684922397661</millis>
-  <nanos>507077</nanos>
-  <sequence>6477</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 36993</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661612608Z</date>
-  <millis>1684922397661</millis>
-  <nanos>612608</nanos>
-  <sequence>6478</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 10551</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661696787Z</date>
-  <millis>1684922397661</millis>
-  <nanos>696787</nanos>
-  <sequence>6479</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
-  <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, resCycle time (ns): 49869</message>
-</record>
-<record>
-  <date>2023-05-24T09:59:57.661775076Z</date>
-  <millis>1684922397661</millis>
-  <nanos>775076</nanos>
-  <sequence>6480</sequence>
+  <date>2023-06-06T12:56:34.695983681Z</date>
+  <millis>1686056194695</millis>
+  <nanos>983681</nanos>
+  <sequence>9</sequence>
   <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 10</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:34.799754096Z</date>
+  <millis>1686056194799</millis>
+  <nanos>754096</nanos>
+  <sequence>10</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 11</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:34.903924609Z</date>
+  <millis>1686056194903</millis>
+  <nanos>924609</nanos>
+  <sequence>11</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 12</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.007791150Z</date>
+  <millis>1686056195007</millis>
+  <nanos>791150</nanos>
+  <sequence>12</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 13</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.111462531Z</date>
+  <millis>1686056195111</millis>
+  <nanos>462531</nanos>
+  <sequence>13</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 14</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.214741189Z</date>
+  <millis>1686056195214</millis>
+  <nanos>741189</nanos>
+  <sequence>14</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 15</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.317849396Z</date>
+  <millis>1686056195317</millis>
+  <nanos>849396</nanos>
+  <sequence>15</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 16</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.421412650Z</date>
+  <millis>1686056195421</millis>
+  <nanos>412650</nanos>
+  <sequence>16</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 17</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.525376751Z</date>
+  <millis>1686056195525</millis>
+  <nanos>376751</nanos>
+  <sequence>17</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 18</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.663523424Z</date>
+  <millis>1686056195663</millis>
+  <nanos>523424</nanos>
+  <sequence>18</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 20</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.665201825Z</date>
+  <millis>1686056195665</millis>
+  <nanos>201825</nanos>
+  <sequence>19</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>CRITICAL-P, value 2: 1</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:35.669909603Z</date>
+  <millis>1686056195669</millis>
+  <nanos>909603</nanos>
+  <sequence>20</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>WARNING</level>
   <class>jason.asSemantics.TransitionSystem</class>
-  <method>criticalRCv3</method>
-  <thread>33</thread>
-  <message>Start sense 1081</message>
+  <method>generateGoalDeletion</method>
+  <thread>49</thread>
+  <message>Could not finish intention: intention 21: 
+    +value2(1)[device(sample_roscore),source(percept)] &lt;- ... embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",(V+1)) / {V=1}
+	Trigger: +value2(1)[code(embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",2)),code_line(25),code_src("file:sample_agent_M.asl"),device(sample_roscore),error(ia_failed),error_msg(""),source(percept)]</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.661904270Z</date>
-  <millis>1684922397661</millis>
-  <nanos>904270</nanos>
-  <sequence>6481</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <date>2023-06-06T12:56:35.768240612Z</date>
+  <millis>1686056195768</millis>
+  <nanos>240612</nanos>
+  <sequence>21</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, criticalRC time (ns): 78540</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 21</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.661993921Z</date>
-  <millis>1684922397661</millis>
-  <nanos>993921</nanos>
-  <sequence>6482</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <date>2023-06-06T12:56:35.871488737Z</date>
+  <millis>1686056195871</millis>
+  <nanos>488737</nanos>
+  <sequence>22</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, sense time (ns): 2397</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 22</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.662071119Z</date>
-  <millis>1684922397662</millis>
-  <nanos>71119</nanos>
-  <sequence>6483</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <date>2023-06-06T12:56:35.975122726Z</date>
+  <millis>1686056195975</millis>
+  <nanos>122726</nanos>
+  <sequence>23</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, delib time (ns): 39125</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 23</message>
 </record>
 <record>
-  <date>2023-05-24T09:59:57.662185611Z</date>
-  <millis>1684922397662</millis>
-  <nanos>185611</nanos>
-  <sequence>6484</sequence>
-  <logger>jason.infra.local.LocalAgArch.sample_agent_M</logger>
+  <date>2023-06-06T12:56:36.078484453Z</date>
+  <millis>1686056196078</millis>
+  <nanos>484453</nanos>
+  <sequence>24</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
   <level>INFO</level>
-  <class>jason.infra.local.LocalAgArch</class>
-  <method>reasoningCycle</method>
-  <thread>33</thread>
-  <message>LBB LocalAgArch, act time (ns): 10064</message>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 24</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.181698504Z</date>
+  <millis>1686056196181</millis>
+  <nanos>698504</nanos>
+  <sequence>25</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 25</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.285133010Z</date>
+  <millis>1686056196285</millis>
+  <nanos>133010</nanos>
+  <sequence>26</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 26</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.388628192Z</date>
+  <millis>1686056196388</millis>
+  <nanos>628192</nanos>
+  <sequence>27</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 27</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.491741282Z</date>
+  <millis>1686056196491</millis>
+  <nanos>741282</nanos>
+  <sequence>28</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 28</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.594934156Z</date>
+  <millis>1686056196594</millis>
+  <nanos>934156</nanos>
+  <sequence>29</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 29</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.697717348Z</date>
+  <millis>1686056196697</millis>
+  <nanos>717348</nanos>
+  <sequence>30</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 30</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.801191958Z</date>
+  <millis>1686056196801</millis>
+  <nanos>191958</nanos>
+  <sequence>31</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 31</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:36.904202978Z</date>
+  <millis>1686056196904</millis>
+  <nanos>202978</nanos>
+  <sequence>32</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 32</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.007269017Z</date>
+  <millis>1686056197007</millis>
+  <nanos>269017</nanos>
+  <sequence>33</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 33</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.110618434Z</date>
+  <millis>1686056197110</millis>
+  <nanos>618434</nanos>
+  <sequence>34</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 34</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.213392598Z</date>
+  <millis>1686056197213</millis>
+  <nanos>392598</nanos>
+  <sequence>35</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 35</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.316163084Z</date>
+  <millis>1686056197316</millis>
+  <nanos>163084</nanos>
+  <sequence>36</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 36</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.419661553Z</date>
+  <millis>1686056197419</millis>
+  <nanos>661553</nanos>
+  <sequence>37</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 37</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.523436304Z</date>
+  <millis>1686056197523</millis>
+  <nanos>436304</nanos>
+  <sequence>38</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 38</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.626346940Z</date>
+  <millis>1686056197626</millis>
+  <nanos>346940</nanos>
+  <sequence>39</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 39</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.630770220Z</date>
+  <millis>1686056197630</millis>
+  <nanos>770220</nanos>
+  <sequence>40</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 40</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.631979914Z</date>
+  <millis>1686056197631</millis>
+  <nanos>979914</nanos>
+  <sequence>41</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>CRITICAL-P, value 2: 2</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.634302146Z</date>
+  <millis>1686056197634</millis>
+  <nanos>302146</nanos>
+  <sequence>42</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>WARNING</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>generateGoalDeletion</method>
+  <thread>49</thread>
+  <message>Could not finish intention: intention 43: 
+    +value2(2)[device(sample_roscore),source(percept)] &lt;- ... embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",(V+1)) / {V=2}
+	Trigger: +value2(2)[code(embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",3)),code_line(25),code_src("file:sample_agent_M.asl"),device(sample_roscore),error(ia_failed),error_msg(""),source(percept)]</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.729392770Z</date>
+  <millis>1686056197729</millis>
+  <nanos>392770</nanos>
+  <sequence>43</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 41</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:37.828453100Z</date>
+  <millis>1686056197828</millis>
+  <nanos>453100</nanos>
+  <sequence>44</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 42</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.023652448Z</date>
+  <millis>1686056198023</millis>
+  <nanos>652448</nanos>
+  <sequence>45</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 43</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.126185020Z</date>
+  <millis>1686056198126</millis>
+  <nanos>185020</nanos>
+  <sequence>46</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 44</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.128076959Z</date>
+  <millis>1686056198128</millis>
+  <nanos>76959</nanos>
+  <sequence>47</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 45</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.228934670Z</date>
+  <millis>1686056198228</millis>
+  <nanos>934670</nanos>
+  <sequence>48</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 46</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.331617620Z</date>
+  <millis>1686056198331</millis>
+  <nanos>617620</nanos>
+  <sequence>49</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 47</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.434402461Z</date>
+  <millis>1686056198434</millis>
+  <nanos>402461</nanos>
+  <sequence>50</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 48</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.537057306Z</date>
+  <millis>1686056198537</millis>
+  <nanos>57306</nanos>
+  <sequence>51</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 49</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.639704090Z</date>
+  <millis>1686056198639</millis>
+  <nanos>704090</nanos>
+  <sequence>52</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 50</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.742465859Z</date>
+  <millis>1686056198742</millis>
+  <nanos>465859</nanos>
+  <sequence>53</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 51</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.845306590Z</date>
+  <millis>1686056198845</millis>
+  <nanos>306590</nanos>
+  <sequence>54</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 52</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:38.948685399Z</date>
+  <millis>1686056198948</millis>
+  <nanos>685399</nanos>
+  <sequence>55</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 53</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.052117831Z</date>
+  <millis>1686056199052</millis>
+  <nanos>117831</nanos>
+  <sequence>56</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 54</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.155265834Z</date>
+  <millis>1686056199155</millis>
+  <nanos>265834</nanos>
+  <sequence>57</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 55</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.257937199Z</date>
+  <millis>1686056199257</millis>
+  <nanos>937199</nanos>
+  <sequence>58</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 56</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.360284093Z</date>
+  <millis>1686056199360</millis>
+  <nanos>284093</nanos>
+  <sequence>59</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 57</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.463007372Z</date>
+  <millis>1686056199463</millis>
+  <nanos>7372</nanos>
+  <sequence>60</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 58</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.565889156Z</date>
+  <millis>1686056199565</millis>
+  <nanos>889156</nanos>
+  <sequence>61</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 59</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.671591855Z</date>
+  <millis>1686056199671</millis>
+  <nanos>591855</nanos>
+  <sequence>62</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>CRITICAL-P, value 2: 3</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.672913527Z</date>
+  <millis>1686056199672</millis>
+  <nanos>913527</nanos>
+  <sequence>63</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 60</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.675143249Z</date>
+  <millis>1686056199675</millis>
+  <nanos>143249</nanos>
+  <sequence>64</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>WARNING</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>generateGoalDeletion</method>
+  <thread>49</thread>
+  <message>Could not finish intention: intention 64: 
+    +value2(3)[device(sample_roscore),source(percept)] &lt;- ... embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",(V+1)) / {V=3}
+	Trigger: +value2(3)[code(embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",4)),code_line(25),code_src("file:sample_agent_M.asl"),device(sample_roscore),error(ia_failed),error_msg(""),source(percept)]</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.777486840Z</date>
+  <millis>1686056199777</millis>
+  <nanos>486840</nanos>
+  <sequence>65</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 61</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.880732807Z</date>
+  <millis>1686056199880</millis>
+  <nanos>732807</nanos>
+  <sequence>66</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 62</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:39.984236412Z</date>
+  <millis>1686056199984</millis>
+  <nanos>236412</nanos>
+  <sequence>67</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 63</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.087523290Z</date>
+  <millis>1686056200087</millis>
+  <nanos>523290</nanos>
+  <sequence>68</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 64</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.190593879Z</date>
+  <millis>1686056200190</millis>
+  <nanos>593879</nanos>
+  <sequence>69</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 65</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.293257007Z</date>
+  <millis>1686056200293</millis>
+  <nanos>257007</nanos>
+  <sequence>70</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 66</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.396027142Z</date>
+  <millis>1686056200396</millis>
+  <nanos>27142</nanos>
+  <sequence>71</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 67</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.498995029Z</date>
+  <millis>1686056200498</millis>
+  <nanos>995029</nanos>
+  <sequence>72</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 68</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.601825799Z</date>
+  <millis>1686056200601</millis>
+  <nanos>825799</nanos>
+  <sequence>73</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 69</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.704508812Z</date>
+  <millis>1686056200704</millis>
+  <nanos>508812</nanos>
+  <sequence>74</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 70</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.807447851Z</date>
+  <millis>1686056200807</millis>
+  <nanos>447851</nanos>
+  <sequence>75</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 71</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:40.910692881Z</date>
+  <millis>1686056200910</millis>
+  <nanos>692881</nanos>
+  <sequence>76</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 72</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.013484750Z</date>
+  <millis>1686056201013</millis>
+  <nanos>484750</nanos>
+  <sequence>77</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 73</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.116539032Z</date>
+  <millis>1686056201116</millis>
+  <nanos>539032</nanos>
+  <sequence>78</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 74</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.219387544Z</date>
+  <millis>1686056201219</millis>
+  <nanos>387544</nanos>
+  <sequence>79</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 75</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.322159775Z</date>
+  <millis>1686056201322</millis>
+  <nanos>159775</nanos>
+  <sequence>80</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 76</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.424718804Z</date>
+  <millis>1686056201424</millis>
+  <nanos>718804</nanos>
+  <sequence>81</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 77</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.527537483Z</date>
+  <millis>1686056201527</millis>
+  <nanos>537483</nanos>
+  <sequence>82</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 79</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.632030519Z</date>
+  <millis>1686056201632</millis>
+  <nanos>30519</nanos>
+  <sequence>83</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>CRITICAL-P, value 2: 4</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.633246303Z</date>
+  <millis>1686056201633</millis>
+  <nanos>246303</nanos>
+  <sequence>84</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 80</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.635074647Z</date>
+  <millis>1686056201635</millis>
+  <nanos>74647</nanos>
+  <sequence>85</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>WARNING</level>
+  <class>jason.asSemantics.TransitionSystem</class>
+  <method>generateGoalDeletion</method>
+  <thread>49</thread>
+  <message>Could not finish intention: intention 85: 
+    +value2(4)[device(sample_roscore),source(percept)] &lt;- ... embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",(V+1)) / {V=4}
+	Trigger: +value2(4)[code(embedded.mas.bridges.jacamo.defaultEmbeddedInternalAction("sample_roscore","update_value",5)),code_line(25),code_src("file:sample_agent_M.asl"),device(sample_roscore),error(ia_failed),error_msg(""),source(percept)]</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.737628546Z</date>
+  <millis>1686056201737</millis>
+  <nanos>628546</nanos>
+  <sequence>86</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 81</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.840334843Z</date>
+  <millis>1686056201840</millis>
+  <nanos>334843</nanos>
+  <sequence>87</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 82</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:41.942923858Z</date>
+  <millis>1686056201942</millis>
+  <nanos>923858</nanos>
+  <sequence>88</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 83</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.045198963Z</date>
+  <millis>1686056202045</millis>
+  <nanos>198963</nanos>
+  <sequence>89</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 84</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.147800476Z</date>
+  <millis>1686056202147</millis>
+  <nanos>800476</nanos>
+  <sequence>90</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 85</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.250034022Z</date>
+  <millis>1686056202250</millis>
+  <nanos>34022</nanos>
+  <sequence>91</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 86</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.352937814Z</date>
+  <millis>1686056202352</millis>
+  <nanos>937814</nanos>
+  <sequence>92</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 87</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.455615371Z</date>
+  <millis>1686056202455</millis>
+  <nanos>615371</nanos>
+  <sequence>93</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 88</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.558166681Z</date>
+  <millis>1686056202558</millis>
+  <nanos>166681</nanos>
+  <sequence>94</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 89</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.660563201Z</date>
+  <millis>1686056202660</millis>
+  <nanos>563201</nanos>
+  <sequence>95</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 90</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.763269921Z</date>
+  <millis>1686056202763</millis>
+  <nanos>269921</nanos>
+  <sequence>96</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 91</message>
+</record>
+<record>
+  <date>2023-06-06T12:56:42.865521237Z</date>
+  <millis>1686056202865</millis>
+  <nanos>521237</nanos>
+  <sequence>97</sequence>
+  <logger>jason.asSemantics.TransitionSystem.sample_agent_M</logger>
+  <level>INFO</level>
+  <class>jason.stdlib.println</class>
+  <method>execute</method>
+  <thread>49</thread>
+  <message>Read value 1: 92</message>
 </record>
 </log>
